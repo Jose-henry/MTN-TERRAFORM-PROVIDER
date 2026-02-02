@@ -1,0 +1,23 @@
+# Terraform generated files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files with sensitive data (may contain secrets)
+*.tfvars
+!*.tfvars.example
+
+# Provider directory
+terraform-provider-MTN_cloud/
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config file
+.terraformrc
+terraform.rc
